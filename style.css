@@ -259,3 +259,25 @@
     align-items: center;
     margin: 150px auto;
 }
+
+.footer-content-last input{
+    width: 252px;
+    height: 72px;
+    border: none;
+    border-radius: 8px;
+}
+.footer-content-last button{
+    width: 72px;
+    height: 72px;
+    background-color: #B68C5A;
+    border: none;
+    border-radius: 8px;
+}
+.footer-content-last button img{
+    width: 24px;
+    height: 24px;
+}
+.footer-content-last{
+    display: flex;
+    gap: 0px;
+}
