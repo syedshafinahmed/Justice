@@ -264,14 +264,14 @@
     width: 252px;
     height: 72px;
     border: none;
-    border-radius: 8px;
+    border-radius: 8px 0 0 8px;
 }
 .footer-content-last button{
     width: 72px;
     height: 72px;
     background-color: #B68C5A;
     border: none;
-    border-radius: 8px;
+    border-radius: 0 8px 8px 0;
 }
 .footer-content-last button img{
     width: 24px;
@@ -280,4 +280,35 @@
 .footer-content-last{
     display: flex;
     gap: 0px;
+    margin-top: 20px;
+}
+.footer-content img{
+    width: 159px;
+    height: 46px;
+    margin-bottom: 10px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 300px;
+    height: 278px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+    gap: 30px;
+}
+.footer-content h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.footer-content h3,p{
+    font-size: 15px;
+    margin-top: 20px;
 }
