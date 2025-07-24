@@ -39,4 +39,16 @@
         height: 400px;
         border-radius: 8px;
     }
+
+    .banner{
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    .legal h3{
+        font-size: 24px;
+    }
+    .legal p{
+        font-size: 14px;
+    }
 }
