@@ -1,10 +1,42 @@
 @media screen and (max-width:768px) {
-    .header{
+    .header {
         flex-direction: column;
         gap: 20px;
     }
-    .headerlink{
+
+    .headerlink {
         flex-direction: column;
         gap: 5px;
+    }
+
+    .banner-content h3 {
+        font-size: 24px;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+    }
+
+    .banner-content input {
+        width: 300px;
+    }
+
+    .banner-content button {
+        width: 100px;
+        font-size: 16px;
+    }
+
+    .banner img {
+        width: 680px;
+        height: 400px;
+        border-radius: 8px;
+        align-items: center;
+        margin-left: 22px;
+    }
+
+    .banner-overlay {
+        width: 680px;
+        height: 400px;
+        border-radius: 8px;
     }
 }
