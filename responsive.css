@@ -105,4 +105,16 @@
         font-size: 16px;
         height: 60px;
     }
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        padding: 40px;
+    }
+    .footer-content{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        padding: 20px 0;
+    }
 }
