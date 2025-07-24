@@ -1,0 +1,10 @@
+@media screen and (max-width:768px) {
+    .header{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .headerlink{
+        flex-direction: column;
+        gap: 5px;
+    }
+}
