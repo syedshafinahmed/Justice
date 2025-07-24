@@ -96,4 +96,13 @@
     .faq-margin p{
         font-size: 10px;
     }
+    .contact{
+        flex-direction: column-reverse;
+        gap: 100px;
+        margin-top: 50px;
+    }
+    .contact-right button{
+        font-size: 16px;
+        height: 60px;
+    }
 }
