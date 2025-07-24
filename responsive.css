@@ -87,4 +87,13 @@
         width: 300px;
         height: auto;
     }
+    .faq{
+        flex-direction: column-reverse;
+    }
+    .faq-title h3{
+        font-size: 13px;
+    }
+    .faq-margin p{
+        font-size: 10px;
+    }
 }
